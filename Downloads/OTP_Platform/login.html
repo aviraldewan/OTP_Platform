@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Sign Up Form</title>
+        <link href="./styles.css" rel="stylesheet">
+    </head>
+    <body>
+
+    <h1>Sign Up</h1>
+
+    <p>You can view all the registerd users by going on route "/users"</p>
+
+    <form action="/form-submit" method="POST">
+        <input required type="text" placeholder="Enter Name" name="name">
+            <br><br>
+        <input required type="text" placeholder="Enter Mode(sms or call)" name="channel">
+        <br><br>
+        <input required type="tel" placeholder="Enter Phone Number" name="phone" pattern="[0-9]{2}[0-9]{5}[0-9]{5}" maxlength="12"  title="Twelve digits code">
+            <br>
+        <label style="font-size:12px;padding-left:20px"> Eg : CountryCode(without '+')7006301967 </label>
+            <br><br>
+        <input id="submit-button" type="submit">
+    </form>
+
+    </body>
+</html>
