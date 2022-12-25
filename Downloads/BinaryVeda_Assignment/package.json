@@ -1,0 +1,23 @@
+{
+  "name": "binaryveda_assignment",
+  "version": "1.0.0",
+  "description": "It is an assignment by BinaryVeda. It has 2 APIs, first one to sign up the user and other one to log the user-in on identification..",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aviral Dewan",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "email-validator": "^2.0.4",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.8.1",
+    "nodemon": "^2.0.20",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  }
+}
